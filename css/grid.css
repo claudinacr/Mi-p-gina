@@ -1,27 +1,28 @@
-body,
 html,
+body,
 h2 {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: #F8BBD0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: blue;
+    background: #FAFAFA;
+    font-family: sans-serif;
+    color: #555;
 }
 
 .fila {
-    width: 100%;
-    margin: 0 auto;
     overflow: hidden;
+    width: 100%;
+    /* margin: 1em auto; */
+    background: #FFFFFF;
 }
 
 .columna {
-    border: 1px blue solid;
     float: left;
-    /* margin-right: 2%; */
-    padding: 0.9em 0;
+    /* background-color: lightgreen; */
+    margin-right: 1%;
+    padding: 1em;
     box-sizing: border-box;
 }
 
@@ -33,6 +34,9 @@ h2 {
     text-align: center;
 }
 
+
+/*DOS COLUMNAS*/
+
 .dos-columnas .columna {
     width: 49%;
 }
@@ -41,14 +45,8 @@ h2 {
     margin-right: 0;
 }
 
-.tres-columnas .columna {
-    width: 32%;
-    margin-left: 1%;
-}
 
-.tres-columnas .columna:nth-child(3n) {
-    margin-right: 0;
-}
+/* CUATRO COLUMNAS*/
 
 .cuatro-columnas .columna {
     width: 23.5%;
@@ -58,6 +56,20 @@ h2 {
     margin-right: 0;
 }
 
+
+/* TRES COLUMNAS*/
+
+.tres-columnas .columna {
+    width: 32%;
+}
+
+.tres-columnas .columna:nth-child(3n) {
+    margin-right: 0;
+}
+
+
+/* SEIS COLUMNAS*/
+
 .seis-columnas .columna {
     width: 15%;
 }
@@ -65,6 +77,9 @@ h2 {
 .seis-columnas .columna:nth-child(6n) {
     margin-right: 0;
 }
+
+
+/* DOCE COLUMNAS*/
 
 .doce-columnas .columna {
     width: 6.5%;
@@ -74,14 +89,17 @@ h2 {
     margin-right: 0;
 }
 
+
+/*RIGHT Y LEFT SIDEBAR*/
+
 .right-sidebar .sidebar,
 .left-sidebar .sidebar {
-    width: 23.5%;
+    width: 30%;
 }
 
 .right-sidebar .content,
 .left-sidebar .content {
-    width: 74.5%;
+    width: 60%;
 }
 
 .right-sidebar .sidebar {
@@ -91,3 +109,10 @@ h2 {
 .left-sidebar .content {
     margin-right: 0;
 }
+
+.texto {
+    padding-left: 5%;
+    text-align: justify;
+}
+
+.info2 {}

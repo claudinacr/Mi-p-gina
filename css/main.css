@@ -1,53 +1,86 @@
-header * {
-    background-color: #F7835C;
-    margin-top: 0;
+.menu-derecho {
+    padding-left: 10em;
+    background-color: #7188C8;
+}
+
+a {
+    text-decoration: none;
     color: white;
-    width: 100%;
-    /* border: 1px blue solid; */
+    padding-right: 1em;
 }
 
-#titleHeader h2 {
-    text-align: right;
-    font-size: 3.5em;
-    padding-top: 1em;
-    padding-bottom: 0.4em;
+.dos-columnas {
+    background-color: #7188C8;
 }
 
-#titleHidden {
-    visibility: hidden;
+.menu-izquierdo .columna {
+    background-color: #7188C8;
 }
 
-.paragraphHeader {
-    padding-bottom: 1.5em;
-    font-size: 1.2em;
-    text-align: right;
-}
-
-.dos-columnas .columna {
-    width: 48% !important;
-}
-
-.fila .columna {
-    margin-top: 0;
+header {
+    margin: 0;
     padding: 0;
+    background-color: #7188C8;
 }
 
-img[src="assets/images/uno.jpg"] {
-    width: 100%;
-    padding-bottom: 1.5em;
-    background-color: #FF875F;
-}
-
-.paragraph {
-    background-color: #FF875F;
+.menu-izquierdo {
     color: white;
+}
+
+.dos-columnas .menu-derecho {
+    padding-top: 1.5em;
+}
+
+.image {
+    width: 100%;
+    margin: auto;
+}
+
+.titulo {
+    color: black;
+    text-align: justify;
+}
+
+.infoContact,
+p {
+    text-align: justify;
+}
+
+.info2 {
+    padding-right: 1em;
+}
+
+.info {
     text-align: center;
 }
 
-.paragraphColumn {
-    background-color: #93F082;
-    padding-top: 2.5em;
-    padding-bottom: 2.5em;
-    margin-left: 0;
-    margin-right: 0;
+.boton1 {
+    background-color: #F9D832;
+    border: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: black;
+}
+
+a {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 20%;
+}
+
+.lion {
+    width: 25;
+    height: 40%;
+}
+
+.footerU {
+    background-color: #7188C8;
+}
+
+.footerU p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
 }
