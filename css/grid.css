@@ -21,8 +21,7 @@ body {
 .columna {
     float: left;
     /* background-color: lightgreen; */
-    margin-right: 1%;
-    padding: 1em;
+    margin-right: 2%;
     box-sizing: border-box;
 }
 

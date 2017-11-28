@@ -33,7 +33,22 @@ header {
 
 .image {
     width: 100%;
-    margin: auto;
+    margin: 0;
+    padding: 0 !important;
+}
+
+.tres-columnas {
+    padding-bottom: 3em;
+}
+
+.tres-columnas .columna {
+    text-align: center;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.tres-columnas .columna .boton1 {
+    float: left;
 }
 
 .titulo {
@@ -52,6 +67,7 @@ p {
 
 .info {
     text-align: center;
+    padding-bottom: 1em;
 }
 
 .boton1 {
