@@ -7,20 +7,16 @@ a {
     text-decoration: none;
     color: white;
     padding-right: 1em;
+    padding-bottom: 4%;
 }
 
 .dos-columnas {
     background-color: #7188C8;
 }
 
-.menu-izquierdo .columna {
-    background-color: #7188C8;
-}
-
 header {
     margin: 0;
     padding: 0;
-    background-color: #7188C8;
 }
 
 .menu-izquierdo {
@@ -32,8 +28,7 @@ header {
 }
 
 .image {
-    width: 100%;
-    margin: 0;
+    max-width: 100%;
     padding: 0 !important;
 }
 
@@ -51,52 +46,90 @@ header {
     float: left;
 }
 
+.columna .parrafo {
+    padding-left: 5em;
+    padding-right: 4em;
+}
+
+.columna {
+    text-align: center;
+}
+
 .titulo {
     color: black;
     text-align: justify;
+    padding-left: 3.5em;
+    padding-top: 2em;
 }
 
 .infoContact,
 p {
     text-align: justify;
+    padding-bottom: 0.9em;
+    padding-right: 2.5em;
+    padding-top: 2em;
 }
 
-.info2 {
-    padding-right: 1em;
+.pinfo2 {
+    padding-top: 0em;
 }
 
-.info {
+.columna .info {
     text-align: center;
     padding-bottom: 1em;
+    justify-content: center;
 }
 
 .boton1 {
-    background-color: #F9D832;
+    background-color: #4B7BB3;
     border: none;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    color: black;
-}
-
-a {
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin-top: 20%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #F5F1B3;
+    font-weight: bolder;
+    border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    border: 3px solid #93F082;
 }
 
 .lion {
-    width: 25;
+    width: 100%;
     height: 40%;
-}
-
-.footerU {
-    background-color: #7188C8;
+    text-align: center;
+    border: 1px #EEEEEE solid;
 }
 
 .footerU p {
     text-align: center;
     color: white;
     font-weight: bold;
+    background-color: #7188C8;
+    padding: 3em;
+    margin-bottom: 0;
+    box-sizing: content-box;
+}
+
+.p11 {
+    margin-left: 2em;
+    padding: 2em;
+    margin-left: 1em;
+}
+
+strong {
+    color: #DE5959;
+}
+
+.iconoMenu {
+    border: 1px #F5F5F5 solid;
+    padding: 2%;
+    border-radius: 10%;
+}
+
+.espacios {
+    height: 2em;
+    box-sizing: content-box;
+    background-color: white;
 }
