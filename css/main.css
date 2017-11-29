@@ -133,7 +133,6 @@ button:hover {
 }
 
 .menu-izquierdo:hover {
-    color: #F9DA42;
     cursor: pointer;
 }
 
@@ -142,10 +141,9 @@ button:hover {
 }
 
 i {
-    border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
-    border: 0px solid #000000;
+    border: 1px #EEEEEE solid;
+    padding: 0.1em;
+    border-radius: 5%;
 }
 
 .imagenesCards {
