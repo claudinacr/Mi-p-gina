@@ -177,3 +177,7 @@ strong {
 .menu-derecho .blue:hover {
     color: #80C8E7;
 }
+
+i.fa-bars {
+    margin-left: 7.5em;
+}
