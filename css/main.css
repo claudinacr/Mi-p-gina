@@ -21,6 +21,7 @@
 .menu-izquierdo {
     background-color: #7678CA;
     float: left;
+    color: #EEEEEE;
 }
 
 .imagenesCards,
@@ -144,6 +145,7 @@ i {
     border: 1px #EEEEEE solid;
     padding: 0.1em;
     border-radius: 5%;
+    color: #EEEEEE;
 }
 
 .imagenesCards {
